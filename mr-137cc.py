@@ -18,11 +18,7 @@ def baner():
                               |\033[32;1mFacebook : Faizul                                                  
                               |-----------------------------------|''')
   
-
-
-
-
-    def kata(s):
+  def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
         sys.stdout.flush()
