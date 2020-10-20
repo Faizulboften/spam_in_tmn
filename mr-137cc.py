@@ -16,9 +16,8 @@ def baner():
 █▀ █▀█ ▄▀█ █▀▄▀█        |-----------------------------------|
 ▄█ █▀▀ █▀█ █░▀░█        | \033[32;1mCreator : Faizul.Boften
                             |\033[32;1mFacebook : Faizul                                                  
-                            |-----------------------------------|
-                             \nCreator: Faizul Boften
                             |-----------------------------------|''')
+                             
 def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
