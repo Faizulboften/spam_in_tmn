@@ -15,10 +15,10 @@ def baner():
                                  \033[37;1mDATA : 20/ocktober/2020                             
 █▀ █▀█ ▄▀█ █▀▄▀█  |         |-----------------------------------|
 ▄█ █▀▀ █▀█ █░▀░█  |         | \033[32;1mCreator : Faizul.Boften
-                              |\033[32;1mFacebook : Faizul                                                  
-                              \t|-----------------------------------|''')
-  
-  def kata(s):"\n":
+                                |\033[32;1mFacebook : Faizul                                                  
+
+\t---------------------''')
+  def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
         sys.stdout.flush()
