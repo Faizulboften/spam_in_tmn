@@ -13,12 +13,14 @@ def baner():
     print ('''   
 \t                               
                                  \033[37;1mDATA : 20/ocktober/2020                             
-█▀ █▀█ ▄▀█ █▀▄▀█  |         |-----------------------------------|
-▄█ █▀▀ █▀█ █░▀░█  |         | \033[32;1mCreator : Faizul.Boften
+█▀ █▀█ ▄▀█ █▀▄▀█            |-----------------------------------|
+▄█ █▀▀ █▀█ █░▀░█            | \033[32;1mCreator : Faizul.Boften
                                 |\033[32;1mFacebook : Faizul                                                  
-
-\t---------------------''')
-  def kata(s):
+\t---------------------
+\nCreator: Faizul Boften
+Youtube: Htc Ctr Gaming
+==========================================''')
+def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
         sys.stdout.flush()
